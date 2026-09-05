@@ -18,6 +18,7 @@ public class EventsController : Controller
 
       var featuredEventTitle = "Campus Welcome Mixer";
 
+
       return View(model: featuredEventTitle);
    }
 
