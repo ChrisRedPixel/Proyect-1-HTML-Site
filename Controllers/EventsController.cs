@@ -16,8 +16,7 @@ public class EventsController : Controller
    {
       _logger.LogInformation("Handling request for the CEMS Events page.");
 
-      var featuredEventTitle = "Campus Welcome Mixer";
-
+      var featuredEventTitle = "Library Research Night";
 
       return View(model: featuredEventTitle);
    }
